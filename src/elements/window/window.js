@@ -1,5 +1,5 @@
 /** @format */
-
+// 2023 год, я в 10-11 классе
 import React, { useEffect, useRef, useState, memo, useCallback } from "react";
 import Nav from "./nav";
 import "./window.css";
