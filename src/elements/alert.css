@@ -1,0 +1,28 @@
+.alert {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+.alertwindow {
+  position: fixed;
+  width: 50vw;
+  height: 50vh;
+  background-color: rgba(200, 200, 200, 80%);
+  top:25vh;
+  left:25vw;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.alertcontrols {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,9 @@
+.info {
+  position: absolute;
+  overflow: scroll;
+  overflow-y: scroll;
+}
+
+.infovideo {
+  width: 100%;
+}

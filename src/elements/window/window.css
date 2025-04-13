@@ -1,0 +1,117 @@
+.window {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index:3;
+  /* pointer-events: none; */
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.window {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+.windowchildren {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.buttonwindow {
+  width:15px;
+  height: 15px;
+}
+
+.buttonwindow img {
+  width: 100%;
+  height: 100%;
+}
+
+[border~="left"] > div {
+  border-bottom-left-radius: 3px;
+}
+
+[border~="right"] > div {
+  border-bottom-right-radius: 3px;
+}
+
+
+
+/* --- Borders --- */
+
+.windowborder {
+  /* z-index: 10; */
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  /* background-color: red; */
+}
+
+.windowangle {
+  /* z-index: 10; */
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  /* background-color: red; */
+    width: 10px;
+  height: 10px;
+}
+
+.bordertop {
+  height: 6px;
+  top:-3px;
+  left: 3px;
+  cursor: ns-resize;
+}
+.borderbottom {
+  height: 6px;
+  bottom: -3px;
+  left: 3px;
+  cursor: ns-resize;
+}
+.borderleft {
+  width: 6px;
+  top: 3px;
+  left: -3px;
+  cursor: ew-resize;
+}
+.borderright {
+  width: 6px;
+  top: 3px;
+  right: -3px;
+  cursor: ew-resize;
+}
+
+
+.angletopleft {
+  top:-3px;
+  left:-3px;
+  cursor: nwse-resize;
+}
+.angletopright {
+  top: -3px;
+  width: 6px;
+  height: 6px;
+  right: -3px;
+  cursor: nesw-resize;
+}
+.anglebottomleft {
+  bottom: -3px;
+  left: -3px;
+  cursor: nesw-resize;
+}
+.anglebottomright {
+  bottom: -3px;
+  right: -3px;
+  cursor: nwse-resize;
+}
+/* cursor: ...
+on element where you want to change cursor
+*/
+

@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 30px;
+  background-color: rgb(191, 190, 190);
+  z-index: 1;
+  padding-right: 10px;
+}
+
+.windowmenu {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+}
+
+.buttonmenu {
+  display: flex;
+  align-items: center;
+}

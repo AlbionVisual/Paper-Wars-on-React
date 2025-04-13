@@ -1,0 +1,28 @@
+.properties {
+  position: absolute;
+  overflow: scroll;
+  overflow-y: scroll;
+  max-height: 100%;
+  width: 100%;
+}
+
+.propertiesline {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.propertiesnumberinput {
+  width: 50px;
+}
+
+.propertieswords {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+hr {
+  border: 0.5px solid rgb(62,62,62);
+  border-radius: 10%;
+}

@@ -1,0 +1,7 @@
+.selector {
+  position: fixed;
+  border: 1px dashed black;
+  border-radius: 2px;
+  padding: 2px;
+  pointer-events: none;
+}

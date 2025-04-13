@@ -1,0 +1,53 @@
+.buttoncontrols {
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.pressedButtoncontrols {
+  /* width: 26px; */
+  height: 26px;
+  padding: 2px;
+  background-color: rgb(173, 173, 173);
+}
+
+.buttoncontrols img {
+  max-width: 30px;
+  min-width: 25px;
+  max-height: 30px;
+  min-height: 25px;
+}
+.pressedButtoncontrols img {
+  max-width: 26px;
+  max-height: 26px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+
+
+
+
+.buttonwindow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pressedButtonwindow {
+  height: 75%;
+  padding: 2px;
+  background-color: rgb(173, 173, 173);
+  }
+
+.buttonwindow img {
+  width: 100%;
+  height:100%;
+  }
+
+.pressedButtonwindow img {
+  width: 80%;
+  height: 80%;
+  }
